@@ -1,0 +1,15 @@
+.manrope {
+  font-family: "Manrope", sans-serif;
+}
+
+.cutom-btn {
+  color: #fff;
+  text-align: center;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+  background: #ff4240;
+}
