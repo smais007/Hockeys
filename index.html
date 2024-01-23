@@ -49,9 +49,9 @@
   </style>
 </head>
 
-<body>
+<body class="manrope">
   <header>
-    <nav class="container mx-auto">
+    <nav class="container mx-auto max-w-[1170px] pt-14">
       <div class="navbar">
         <div class="navbar-start">
           <div class="dropdown">
@@ -62,20 +62,19 @@
               </svg>
             </div>
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Item 1</a></li>
-              <li><a href=""></a>Item 1</li>
-              <li><a href=""></a>Item 1</li>
-              <li><a href=""></a>Item 1</li>
-              <li><a href=""></a>Item 1</li>
-              <li><a>Item 3</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
               </li>
             </ul>
           </div>
-          <a class="text-4xl">Hockey <span class="">'</span>s</a>
+          <a class=" text-2xl font-extrabold lg:lgtext-4xl">Hockey <span class="">'</span>s</a>
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a href="#">Item</a></li>
+          <ul class="menu menu-horizontal px-11 text-lg">
+            <li class="font-bold"><a href="#">Item</a></li>
             <li><a href="#">Item</a></li>
             <li><a href="#">Item</a></li>
             <li><a href="#">Item</a></li>
@@ -83,13 +82,14 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <a href="" class=".cutom-btn">Apply Now</a>
+          <i class="hidden lg:fa-solid fa-magnifying-glass text-2xl pr-6"></i>
+          <a href="" class="custom-btn py-2 px-4 lg:px-6 lg:py-4">Apply Now</a>
         </div>
       </div>
     </nav>
 
     <!--Banner Section-->
-    <div class="container flex flex-col  lg:mx-auto p-8 relative mb-28">
+    <div class="container  mx-auto max-w-[1170px] flex flex-col  lg:mx-auto p-8 relative mb-28">
       <div class="carousel w-full">
         <div id="slide1"
           class="carousel-item relative w-full bg-[url(./assets/img/banner.png)] bg-no-repeat bg-cover h-[550px] rounded-2xl">
@@ -130,7 +130,7 @@
 
   <main>
     <!-- Professional Hockeys Club -->
-    <div class="container mx-auto">
+    <div class="container mx-auto max-w-[1170px]">
 
       <div class="text-center ">
         <hr class="dot-border mb-8">
@@ -178,7 +178,7 @@
     </div>
 
     <!--Profram Section-->
-    <div class="container mx-auto">
+    <div class="container mx-auto max-w-[1170px]">
       <div class="text-center">
         <hr class="dot-border mt-24 mb-8">
         <h1 class="title-color font-extrabold text-4xl pb-6"">
@@ -190,7 +190,7 @@
           <hr class="dot-border mb-8">
       </div>
 
-      <div class=" grid grid-cols-1 lg:grid-cols-12 pt-12 gap-6 pb-24">
+      <div class=" flex flex-col   lg:grid grid-cols-1 lg:grid-cols-12 pt-12 gap-6 pb-24">
         <div
           class="bg-[url(./assets/img/junior.png)] bg-no-repeat bg-cover h-80 w-[573px] rounded-2xl relative col-span-6">
           <div class="pb-12 pl-10 absolute top-1/3">
@@ -212,7 +212,7 @@
           </div>
         </div>
         <div
-          class="bg-[url(./assets/img/professional.png)] bg-no-repeat bg-cover h-[450px] w-[1170px] rounded-2xl relative col-span-12">
+          class="bg-[url(./assets/img/professional.png)] bg-no-repeat bg-cover rounded-2xl h-[335px] lg:h-[450px] w-[1170px]  col-span-12 relative">
           <div class="pb-12 pl-10 absolute top-1/3">
             <h3 class="text-3xl font-extrabold text-white pb-4">Junior Program</h3>
             <p class="text-white font-medium pb-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
@@ -225,7 +225,7 @@
 
     </div>
     <!--Our Products-->
-    <div class="container mx-auto">
+    <div class="container mx-auto max-w-[1170px]">
 
       <div class="text-center ">
         <hr class="dot-border mb-8">
@@ -425,7 +425,7 @@
     </div>
 
     <!--FAQ Section-->
-    <div class="container mx-auto">
+    <div class="container mx-auto max-w-[1170px]">
 
       <div class="text-center pt-24">
         <hr class="dot-border mb-8">
@@ -481,7 +481,7 @@
     </div>
 
     <!--Contact Section-->
-    <div class="container mx-auto pt-24">
+    <div class="container mx-auto pt-24 max-w-[1170px]">
       <div class="text-center ">
         <hr class="dot-border mb-8">
         <h1 class="title-color font-extrabold text-4xl pb-6">Professional Hockeys Club</h1>
@@ -549,7 +549,7 @@
     </div>
 
     <!--Social Media-->
-    <div class="container mx-auto rounded-2xl mt-12 h-36 bg-[#1313180a] mb-24">
+    <div class="container mx-auto max-w-[1170px] rounded-2xl mt-12 h-36 bg-[#1313180a] mb-24">
       <h1 class="text-center pt-9 pb-6 font-extrabold text-2xl title-color manrope">Social Media</h1>
       <div class="text-center">
         <i class="fa-brands text-2xl pl-7 fa-twitter"></i>
@@ -561,7 +561,7 @@
   </main>
 
 
-  <footer class="footer p-10 bg-base-200 text-base-content container mx-auto">
+  <footer class="footer p-10 bg-base-200 text-base-content ">
     <aside class=" justify-items-center lg:justify-items-start">
       <h1>Get In Touch</h1>
       <p class="w-[346px]">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit
