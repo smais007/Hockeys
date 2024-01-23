@@ -45,11 +45,15 @@
     }
 
     @media only screen and (max-width: 640px) {
+
       /* #product {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
       } */
+      .custom-btn {
+        font-size: 18px;
+      }
     }
   </style>
 </head>
@@ -124,11 +128,13 @@
           </div>
         </div>
       </div>
-      <!-- <div class="container bg-black rounded-2xl  lg:absolute bottom-16 right-16  w-[566px] h-[165px] p-8 ">
-        <h3 class="text-white font-extrabold text-2xl pb-4">Meet all the heroes from the field</h3>
-        <p class="text-[#ffffff99]">Welcome to our hockey club's official website, where passion meets the puck and
+      <div class="container bg-[#131318] rounded-2xl  lg:absolute bottom-16 right-16  w-[566px] h-[165px] p-8 sm:mt-4 ">
+        <h3 class="text-white font-extrabold lg:text-2xl lg:pb-4 sm:text-lg sm:pb-2">Meet all the heroes from the field
+        </h3>
+        <p class="text-[#ffffff99] lg:text-base sm:text-sm">Welcome to our hockey club's official website, where passion
+          meets the puck and
           champions are born! "Meet All the Heroes from the Field" </p>
-      </div> -->
+      </div>
     </div>
   </header>
   <main>
@@ -136,15 +142,16 @@
     <div class="container mx-auto max-w-[1170px]">
       <div class="text-center ">
         <hr class="dot-border mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
-        <h1 class="title-color font-extrabold text-4xl pb-6">Professional Hockeys Club</h1>
-        <p class="text-color mx-auto w-1/2 mb-8">Welcome to the digital home of our Professional Hockey Club, where the
+        <h1 class="title-color font-extrabold lg:text-4xl pb-6 sm:text-2xl">Professional Hockeys Club</h1>
+        <p class="text-color mx-auto w-1/2 mb-8 sm:text-sm">Welcome to the digital home of our Professional Hockey Club,
+          where the
           pursuit of
           excellence is not just a
           goal but a way of life. </p>
         <hr class="dot-border mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
       </div>
       <div class="container grid grid-cols-1 pb-6 md:grid-cols-2 lg:grid-cols-4 justify-evenly pt-12">
-        <div class="text-center">
+        <div class="text-center sm:pb-6">
           <div class="radial-progress text-[#FF4240] relative" style="--value:87; --size:10rem; --thickness: 1.2rem;"
             role="progressbar">
             <h1 class="font-extrabold title-color text-2xl">87%</h1>
@@ -152,7 +159,7 @@
           <h2 class="font-semibold text-lg pt-6 pb-4">Prayer Facility</h2>
           <p class="text-color w-64 mx-auto">Amet consectetur. Condimentum dignissim adipiscing .</p>
         </div>
-        <div class="text-center">
+        <div class="text-center sm:pb-6">
           <div class="radial-progress text-[#49D293] relative" style="--value:95; --size:10rem; --thickness: 1.2rem;"
             role="progressbar">
             <h1 class="font-extrabold title-color text-2xl">95%</h1>
@@ -160,7 +167,7 @@
           <h2 class="font-semibold text-lg pt-6 pb-4">Prayer Facility</h2>
           <p class="text-color w-64 mx-auto">Amet consectetur. Condimentum dignissim adipiscing .</p>
         </div>
-        <div class="text-center">
+        <div class="text-center sm:pb-6">
           <div class="radial-progress text-[#FFB546] relative" style="--value:90; --size:10rem; --thickness: 1.2rem;"
             role="progressbar">
             <h1 class="font-extrabold title-color text-2xl">90%</h1>
@@ -168,7 +175,7 @@
           <h2 class="font-semibold text-lg pt-6 pb-4">Prayer Facility</h2>
           <p class="text-color w-64 mx-auto">Amet consectetur. Condimentum dignissim adipiscing .</p>
         </div>
-        <div class="text-center">
+        <div class="text-center sm:pb-6">
           <div class="radial-progress text-[#4C8DF1] relative" style="--value:80; --size:10rem; --thickness: 1.2rem;"
             role="progressbar">
             <h1 class="font-extrabold title-color text-2xl">80%</h1>
@@ -182,20 +189,22 @@
     <div class="container mx-auto max-w-[1170px]">
       <div class="text-center">
         <hr class="dot-border mt-24 mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
-        <h1 class="title-color font-extrabold text-4xl pb-6"">
+        <h1 class="title-color font-extrabold lg:text-4xl pb-6 sm:text-2xl">
           Program Sections
         </h1>
-        <p class=" text-color mx-auto w-1/2 mb-8">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+        <p class=" text-color mx-auto w-1/2 mb-8 sm:text-sm">Dit amet consectetur. Condimentum dignissim adipiscing
+          aliquam turpis
           placerat dolor. Purus urna in sit
           nullam proin. </p>
-          <hr class="dot-border mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
+        <hr class="dot-border mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
       </div>
       <div class=" flex flex-col sm:pl-8  lg:grid  lg:grid-cols-12 pt-12 gap-6 pb-24">
         <div
           class="bg-[url(./assets/img/junior.png)] bg-no-repeat bg-cover h-80 w-[573px] rounded-2xl relative col-span-6">
           <div class="pb-12 pl-10 absolute top-1/3">
-            <h3 class="text-3xl font-extrabold text-white pb-4">Junior Program</h3>
-            <p class="text-white font-medium pb-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+            <h3 class="sm:text-xl lg:text-3xl font-extrabold text-white pb-4">Junior Program</h3>
+            <p class="text-white font-medium pb-6 sm:text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              Elit elit
               enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
             </p>
             <button class="custom-btn py-3 px-6">Register Now!</button>
@@ -204,8 +213,9 @@
         <div
           class="bg-[url(./assets/img/junior.png)] bg-no-repeat bg-cover h-80 w-[573px] rounded-2xl relative col-span-6">
           <div class="pb-12 pl-10 absolute top-1/3">
-            <h3 class="text-3xl font-extrabold text-white pb-4">Junior Program</h3>
-            <p class="text-white font-medium pb-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+            <h3 class="sm:text-xl lg:text-3xl font-extrabold text-white pb-4">Junior Program</h3>
+            <p class="text-white font-medium pb-6 sm:text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              Elit elit
               enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
             </p>
             <button class="custom-btn py-3 px-6">Register Now!</button>
@@ -214,8 +224,9 @@
         <div
           class="bg-[url(./assets/img/professional.png)] bg-no-repeat bg-cover rounded-2xl sm:h-[320px] sm:w-[573px] lg:h-[450px] lg:w-[1170px]  lg:col-span-12 relative">
           <div class="pb-12 pl-10 absolute top-1/3">
-            <h3 class="text-3xl font-extrabold text-white pb-4">Junior Program</h3>
-            <p class="text-white font-medium pb-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+            <h3 class="sm:text-xl lg:text-3xl font-extrabold text-white pb-4">Junior Program</h3>
+            <p class="text-white font-medium pb-6 sm:text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              Elit elit
               enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
             </p>
             <button class="custom-btn py-3 px-6">Register Now!</button>
@@ -227,8 +238,9 @@
     <div class="container mx-auto max-w-[1170px]">
       <div class="text-center ">
         <hr class="dot-border mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
-        <h1 class="title-color font-extrabold text-4xl pb-6">Our New Products</h1>
-        <p class="text-color mx-auto w-1/2 mb-8">Welcome to the digital home of our Professional Hockey Club, where the
+        <h1 class="title-color font-extrabold text-4xl pb-6 sm:text-2xl">Our New Products</h1>
+        <p class="text-color mx-auto w-1/2 mb-8 sm:text-sm">Welcome to the digital home of our Professional Hockey Club,
+          where the
           pursuit of
           excellence is not just a
           goal but a way of life. </p>
@@ -277,8 +289,9 @@
     <div class="container mx-auto lg:max-w-[1170px] sm:max-w-[573px]">
       <div class="text-center pt-24">
         <hr class="dot-border mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
-        <h1 class="title-color font-extrabold text-4xl pb-6">Clients Question</h1>
-        <p class="text-color mx-auto w-1/2 mb-8">Welcome to the digital home of our Professional Hockey Club, where
+        <h1 class="title-color font-extrabold lg:text-4xl pb-6 sm:text-2xl">Clients Question</h1>
+        <p class="text-color mx-auto w-1/2 mb-8 sm:text-sm">Welcome to the digital home of our Professional Hockey Club,
+          where
           the
           pursuit of
           excellence is not just a
@@ -297,7 +310,7 @@
                 Click to open this one and close others
               </div>
               <div class="collapse-content">
-                <p>hello</p>
+                <p class="text-color sm:text-sm">hello</p>
               </div>
             </div>
             <div class="collapse collapse-arrow join-item border-b-[1px] border-base-[617px]">
@@ -326,8 +339,9 @@
     <div class="container mx-auto pt-24 lg:max-w-[1170px]">
       <div class="text-center ">
         <hr class="dot-border mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
-        <h1 class="title-color font-extrabold text-4xl pb-6">Professional Hockeys Club</h1>
-        <p class="text-color mx-auto w-1/2 mb-8">Welcome to the digital home of our Professional Hockey Club, where the
+        <h1 class="title-color font-extrabold lg:text-4xl pb-6 sm:text-2xl">Professional Hockeys Club</h1>
+        <p class="text-color mx-auto w-1/2 mb-8 sm:text-sm">Welcome to the digital home of our Professional Hockey Club,
+          where the
           pursuit of
           excellence is not just a
           goal but a way of life. </p>
