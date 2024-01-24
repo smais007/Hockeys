@@ -35,6 +35,10 @@
       color: #131318;
     }
 
+    .text-footer {
+      color: rgba(255, 255, 255, 0.60);
+    }
+
     .text-color {
       color: rgba(19, 19, 24, 0.60);
     }
@@ -641,35 +645,52 @@
   </main>
 
 
-  <footer class="footer p-10 bg-base-200 text-base-content grid lg:grid-cols-3 sm:grid-cols-1">
-    <div>
-      <aside>
-        </svg>
-        <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
+  <footer class="footer p-10 bg-[#131318]  grid lg:grid-cols-3 sm:grid-cols-1">
+    <div class="inline-bloc w-full mx-auto ">
+      <aside class="justify-items-center lg:justify-items-start">
+        <h1 class="text-white font-extrabold text-[28px] pb-4">Get In Touch</h1>
+        <p class="w-[350px] leading-6 text-footer pb-6 text-base font-medium">Get in touch with us for all things
+          hockey-related!
+          Whether you
+          have inquiries,
+          seek
+          collaborations, or want
+          to join our vibrant community, we're here to make your hockey experience exceptional.</p>
+        <div class="flex items-center gap-x-4 pb-4">
+          <img src="assets/icons/f-message.svg" alt="">
+          <p class="text-footer font-medium">hockeys@support.com</p>
+        </div>
+        <div class="flex items-center gap-x-4 ">
+          <img src="assets/icons/f-call.svg" alt="">
+          <p class="text-footer font-medium">(+62) 123-321-543</p>
+        </div>
       </aside>
     </div>
-    <div class=" footer flex justify-around">
-      <nav>
-        <header class="footer-title">Services</header>
-        <a class="link link-hover">Branding</a>
-        <a class="link link-hover">Design</a>
-        <a class="link link-hover">Marketing</a>
-        <a class="link link-hover">Advertisement</a>
+    <div class=" footer flex justify-around items-center justify-items-center">
+      <nav class="justify-items-center lg:justify-items-start">
+        <header class="footer-title font-bold text-[#fff] text-lg pb-7">Company</header>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">About us</a>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">Leadership</a>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">Careers</a>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">News & Article</a>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">Legal Notice</a>
       </nav>
-      <nav>
-        <header class="footer-title">Company</header>
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Contact</a>
-        <a class="link link-hover">Jobs</a>
-        <a class="link link-hover">Press kit</a>
+      <nav class="justify-items-center lg:justify-items-start">
+        <header class="footer-title font-bold text-[#fff] text-lg pb-7">Support</header>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">Help Center</a>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">FAQ</a>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">Ticket Support</a>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">Contact Us</a>
       </nav>
     </div>
-    <div class="footer">
-      <nav>
-        <header class="footer-title">Legal</header>
-        <a class="link link-hover">Terms of use</a>
-        <a class="link link-hover">Privacy policy</a>
-        <a class="link link-hover">Cookie policy</a>
+    <div class="footer flex justify-center items-cente">
+      <nav class="justify-items-center lg:justify-items-start">
+        <header class="footer-title font-bold text-[#fff] text-lg pb-7">Services</header>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">Academy</a>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">Group Lesson</a>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">Private Lesson</a>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">Hockeys for kids</a>
+        <a class="link link-hover text-footer leading-10 text-base font-medium">Hockeys for Adult</a>
       </nav>
     </div>
   </footer>
