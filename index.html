@@ -29,7 +29,17 @@
       font-weight: 700;
       line-height: normal;
       border-radius: 8px;
-      background: #ff4240;
+      background: #FF4240;
+    }
+
+    .custom-btn:hover {
+      color: #131318;
+      background-color: #40f99b;
+      transition: all 1s ease;
+    }
+
+    .primary-color {
+      color: #FF4240;
     }
 
     .title-color {
@@ -56,8 +66,12 @@
         left: 50%;
         transform: translateX(-50%);
       } */
-      .fa-solid {
+      .search {
         display: none;
+      }
+
+      p {
+        font-size: 14px;
       }
 
       .custom-btn {
@@ -88,11 +102,11 @@
               </li>
             </ul>
           </div>
-          <a class=" text-2xl font-extrabold lg:text-4xl">Hockey<span style="color: #ff4240;">'</span>s</a>
+          <a class=" text-2xl font-extrabold lg:text-4xl">Hockey<span style="color: .primary-color;">'</span>s</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-11 text-lg">
-            <li class="font-bold"><a href="#" style="color: #ff4240;">Home</a></li>
+            <li class="font-bold"><a href="#" style="color:#FF4240;">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Pages</a></li>
             <li><a href="#">Blog</a></li>
@@ -100,7 +114,7 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <i class="fa-solid fa-magnifying-glass text-2xl pr-6"></i>
+          <i class=" search fa-solid fa-magnifying-glass text-2xl pr-6"></i>
           <a href="" class="custom-btn py-2 px-4 lg:px-6 lg:py-4">Get Ticket</a>
         </div>
       </div>
@@ -112,8 +126,8 @@
           class="carousel-item relative w-full bg-gradient-to-br from-gray-300 via-gray-300 to-gray-300  bg-no-repeat bg-cover h-[550px] rounded-2xl"
           style="background-image: url('./assets/img/banner.png');">
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" class="btn btn-circle">❮</a>
-            <a href="#slide2" class="btn btn-circle">❯</a>
+            <a href="#slide4" class="btn btn-circle primary-color">❮</a>
+            <a href="#slide2" class="btn btn-circle primary-color">❯</a>
           </div>
         </div>
         <!--slide 2-->
@@ -121,8 +135,8 @@
           class="carousel-item relative w-full bg-gradient-to-br from-gray-300 via-gray-300 to-gray-300  bg-no-repeat bg-cover h-[550px] rounded-2xl"
           style="background-image: url('./assets/img/1.png');">
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle">❮</a>
-            <a href="#slide3" class="btn btn-circle">❯</a>
+            <a href="#slide1" class="btn btn-circle primary-color">❮</a>
+            <a href="#slide3" class="btn btn-circle primary-color">❯</a>
           </div>
         </div>
 
@@ -130,8 +144,8 @@
           class="carousel-item relative w-full bg-gradient-to-br from-gray-300 via-gray-300 to-gray-300  bg-no-repeat bg-cover h-[550px] rounded-2xl"
           style="background-image: url('./assets/img/2.png');">
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle">❮</a>
-            <a href="#slide4" class="btn btn-circle">❯</a>
+            <a href="#slide2" class="btn btn-circle primary-color">❮</a>
+            <a href="#slide4" class="btn btn-circle primary-color">❯</a>
           </div>
         </div>
 
@@ -139,16 +153,16 @@
           class="carousel-item relative w-full bg-gradient-to-br from-gray-300 via-gray-300 to-gray-300  bg-no-repeat bg-cover h-[550px] rounded-2xl"
           style="background-image: url('./assets/img/3.png');">
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" class="btn btn-circle">❮</a>
-            <a href="#slide5" class="btn btn-circle">❯</a>
+            <a href="#slide3" class="btn btn-circle primary-color">❮</a>
+            <a href="#slide5" class="btn btn-circle primary-color">❯</a>
           </div>
         </div>
         <div id="slide5"
           class="carousel-item relative w-full bg-gradient-to-br from-gray-300 via-gray-300 to-gray-300  bg-no-repeat bg-cover h-[550px] rounded-2xl"
           style="background-image: url('./assets/img/4.png');">
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" class="btn btn-circle">❮</a>
-            <a href="#slide1" class="btn btn-circle">❯</a>
+            <a href="#slide4" class="btn btn-circle primary-color">❮</a>
+            <a href="#slide1" class="btn btn-circle primary-color">❯</a>
           </div>
         </div>
       </div>
@@ -227,19 +241,37 @@
           From Junior Development to Elite Training, Find Your Path to Hockey Excellence.</p>
         <hr class="dot-border mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
       </div>
-      <div class=" flex flex-col pt-12 gap-6 pb-24 sm:pl-8  lg:pl-0 lg:grid  lg:grid-cols-12 ">
-        <!-- Programe 1 -->
-        <div class="bg-[url(./assets/img/p1.png)] bg-no-repeat bg-cover h-80 w-[573px] rounded-2xl relative col-span-6">
-          <div class="pb-12 pl-10 absolute top-1/3">
-            <h3 class="sm:text-xl lg:text-3xl font-extrabold text-white pb-4">Junior Program</h3>
-            <p class="text-white font-medium pb-6 sm:text-sm">Nurturing Young Talent - Where Passion Meets Play in a Fun
-              Learning Environment.
-            </p>
-            <button class="custom-btn py-3 px-6">Register Now!</button>
+
+
+      <!-- =============================== -->
+      <!-- Image Gellary -->
+      <div>
+        <div class="flex flex-col sm:flex-row gap-6 pb-6 ">
+
+          <div class="bg-[url(./assets/img/p1.png)] bg-no-repeat bg-cover h-80 w-full rounded-2xl relative">
+            <div class="pb-12 pl-10 absolute top-1/3">
+              <h3 class="sm:text-xl lg:text-3xl font-extrabold text-white pb-4">Junior Program</h3>
+              <p class="text-white font-medium pb-6 sm:text-sm">Nurturing Young Talent - Where Passion Meets Play in a
+                Fun
+                Learning Environment.
+              </p>
+              <button class="custom-btn py-3 px-6">Register Now!</button>
+            </div>
+          </div>
+
+          <div class="bg-[url(./assets/img/p2.png)] bg-no-repeat bg-cover h-80 w-full rounded-2xl relative">
+            <div class="pb-12 pl-10 absolute top-1/3">
+              <h3 class="sm:text-xl lg:text-3xl font-extrabold text-white pb-4">Teenager Program</h3>
+              <p class="text-white font-medium mr-5 pb-6 sm:text-sm">Transforming Potential into Power - Elevate Skills
+                and
+                Character in Our Teenager Program.
+              </p>
+              <button class="custom-btn py-3 px-6">Register Now!</button>
+            </div>
           </div>
         </div>
-        <!-- Programe 1 -->
-        <div class="bg-[url(./assets/img/p2.png)] bg-no-repeat bg-cover h-80 w-[573px] rounded-2xl relative col-span-6">
+
+        <div class="bg-[url(./assets/img/p3.png)] bg-no-repeat bg-cover h-80 w-full rounded-2xl relative mb-24">
           <div class="pb-12 pl-10 absolute top-1/3">
             <h3 class="sm:text-xl lg:text-3xl font-extrabold text-white pb-4">Teenager Program</h3>
             <p class="text-white font-medium mr-5 pb-6 sm:text-sm">Transforming Potential into Power - Elevate Skills
@@ -249,25 +281,16 @@
             <button class="custom-btn py-3 px-6">Register Now!</button>
           </div>
         </div>
-        <!-- Programe 3 -->
-        <div
-          class="bg-[url(./assets/img/p3.png)] bg-no-repeat bg-cover rounded-2xl sm:h-[320px] sm:w-[573px] lg:h-[450px] lg:w-[1170px]  lg:col-span-12 relative">
-          <div class="pb-12 pl-10 absolute top-2/4">
-            <h3 class="sm:text-xl lg:text-3xl font-extrabold text-white pb-4">Professional Programs</h3>
-            <p class="text-white font-medium pb-6 sm:text-sm">Crafting Champions - Unleash Your Full Potential in Our
-              Elite Professional Training Program.
-            </p>
-            <button class="custom-btn py-3 px-6">Register Now!</button>
-          </div>
-        </div>
       </div>
+
     </div>
     <!--Our Products-->
     <div class="container mx-auto max-w-[1170px]">
       <div class="text-center ">
         <hr class="dot-border mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
-        <h1 class="title-color font-extrabold text-4xl pb-6 sm:text-2xl">Our New Products</h1>
-        <p class="text-color mx-auto w-1/2 mb-8 sm:text-sm">Elevate Your Game with Our New Official Products - Where
+        <h1 class="title-color font-extrabold lg:text-4xl pb-6 sm:text-2xl">Our New Products</h1>
+        <p class="text-color mx-auto w-1/2 mb-8 lg:text-base sm:text-sm ">Elevate Your Game with Our New Official
+          Products - Where
           Performance Meets Perfection.</p>
         <hr class="dot-border mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
       </div>
@@ -623,7 +646,7 @@
               <textarea class="textarea textarea-bordered bg-[#13131805] w-full h-[370px]"
                 placeholder="Write your Message"></textarea>
             </div>
-            <button class="custom-btn py-4 mt-8 w-[335px] max-w-xs">Send Message</button>
+            <button class="custom-btn py-4 mt-8 w-full flex justify-center items-center ">Send Message</button>
           </div>
         </div>
       </div>
@@ -641,7 +664,7 @@
   </main>
 
   <!-- Footer Section  -->
-  <div class="w-full bg-[#131318] pb-10 ">
+  <!-- <div class="w-full bg-[#131318] pb-10 ">
     <footer
       class="footer container  mx-auto  pt-24 bg-[#131318] lg:max-w-[1170px] grid lg:grid-cols-3 lg:justify-between sm:grid-cols-1">
       <div class="flex w-full   mx-auto lg:text-left sm:justify-center">
@@ -694,7 +717,103 @@
         </nav>
       </div>
     </footer>
-  </div>
+  </div> -->
+
+  <footer class=" bg-[#131318] text-white p-5 lg:p-12 mt-12">
+    <div class="container mx-auto lg:max-w-[1170px] ">
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-5">
+        <div class="space-y-5 lg:col-span-2 text-center lg:text-start">
+          <div>
+            <h2 class="text-3xl font-extrabold pb-4">
+              Get In Touch
+            </h2>
+            <p class="lg:max-w-[346px] text-footer leading-6 pb-6">
+              Contact us anytime. We welcome your messages, inquiries, and feedback. Let's stay connected and make
+              things happen together!
+            </p>
+            <p class="lg:max-w-[346px]">
+              <span class="text-red-600 mr-5"><i class="fa-regular fa-envelope"></i></span> <span
+                class="text-footer">hockeys@support.com</span> <br>
+              <br>
+              <span class="text-red-600  mr-5"><i class="fa-solid fa-phone"></i></span><span class="text-footer">
+                (+62) 123-321-543
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-between lg:justify-evenly lg:col-span-2">
+          <div>
+            <h3 class="text-xl font-extrabold mb-6">
+              Company
+            </h3>
+            <ul class="space-x-1  footer-text">
+              <a href="#">
+                <li class="text-footer">About us</li>
+              </a>
+              <a href="#">
+                <li class="text-footer">Leadership </li>
+              </a>
+              <a href="#">
+                <li class="text-footer">Careers </li>
+              </a>
+              <a href="#">
+                <li class="text-footer">BloNews & Articleg</li>
+              </a>
+              <a href="#">
+                <li class="text-footer">Legal Notice</li>
+              </a>
+            </ul>
+          </div>
+
+          <div>
+            <div>
+              <h3 class="text-xl font-extrabold mb-6">
+                Support
+              </h3>
+              <ul class="space-x-1  footer-text">
+                <a href="#">
+                  <li class="text-footer">Help Center</li>
+                </a>
+                <a href="#">
+                  <li class="text-footer">FAQ </li>
+                </a>
+                <a href="#">
+                  <li class="text-footer"> Ticket Support</li>
+                </a>
+                <a href="#">
+                  <li class="text-footer"> Contact Us</li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-center">
+          <div>
+            <h3 class="text-xl font-extrabold mb-6">
+              Services
+            </h3>
+            <ul class="space-x-1 footer-text">
+              <a href="#">
+                <li class="text-footer">Academy</li>
+              </a>
+              <a href="#">
+                <li class="text-footer">Group Lesson</li>
+              </a>
+              <a href="#">
+                <li class="text-footer">Private Lesson</li>
+              </a>
+              <a href="#">
+                <li class="text-footer"> Hockeys for kids</li>
+              </a>
+              <a href="#">
+                <li class="text-footer">Hockeys for Adult</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
