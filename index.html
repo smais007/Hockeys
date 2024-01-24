@@ -191,7 +191,7 @@
         <hr class="dot-border mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
       </div>
       <div class="container grid grid-cols-1 pb-6 md:grid-cols-2 lg:grid-cols-4 justify-evenly pt-12">
-        <div class="text-center sm:pb-6">
+        <div class="text-center sm:pb-6 mb-12">
           <div class="radial-progress text-[#FF4240] relative" style="--value:87; --size:10rem; --thickness: 1.2rem;"
             role="progressbar">
             <h1 class="font-extrabold title-color text-2xl">87%</h1>
@@ -200,7 +200,7 @@
           <p class="text-color w-64 mx-auto">A serene haven for reflection and spiritual connection, enhancing your
             holistic well-being.</p>
         </div>
-        <div class="text-center sm:pb-6">
+        <div class="text-center sm:pb-6 mb-12">
           <div class="radial-progress text-[#49D293] relative" style="--value:95; --size:10rem; --thickness: 1.2rem;"
             role="progressbar">
             <h1 class="font-extrabold title-color text-2xl">95%</h1>
@@ -209,7 +209,7 @@
           <p class="text-color w-64 mx-auto">Our seasoned coach is dedicated to guiding players to unparalleled heights
             of success.</p>
         </div>
-        <div class="text-center sm:pb-6">
+        <div class="text-center sm:pb-6 mb-12">
           <div class="radial-progress text-[#FFB546] relative" style="--value:90; --size:10rem; --thickness: 1.2rem;"
             role="progressbar">
             <h1 class="font-extrabold title-color text-2xl">90%</h1>
@@ -582,7 +582,7 @@
       </div>
     </div>
     <!--Contact Section-->
-    <div class="container mx-auto pt-24 lg:max-w-[1170px]">
+    <div class="container mx-auto pt-24 lg:max-w-[1170px] sm:max-w-[573px]">
       <div class="text-center ">
         <hr class="dot-border mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
         <h1 class="title-color font-extrabold lg:text-4xl pb-6 sm:text-2xl">Get In Touch</h1>
@@ -591,28 +591,33 @@
         <hr class="dot-border mb-8 lg:max-w-[1170px] sm:max-w-[573px] sm:mx-auto">
       </div>
       <div class="flex flex-col lg:flex-row">
-        <div class=" lg:w-[474px] lg:h-[764px] sm:w-[335px] sm:h-[664px] sm:mx-auto border rounded-2xl">
-          <div
-            class="rounded-2xl bg-[#bced6e19] p-5 mx-auto lg:mt-6 lg:mb-6 sm:mt-4 sm:w-[287px] sm:h-[184px] lg:w-[374px] lg:h-[216px] ">
-            <img src="assets/icons/call.svg" alt="" class="pb-6">
-            <p class="text-[#13131866] pb-4 ">Phone Number:</p>
-            <h6 class="title-color font-extrabold text-lg ">(+62) 123-321-543</h6>
-          </div>
-          <div
-            class="rounded-2xl bg-[#fddd5f1a] p-5 mx-auto lg:mt-6 lg:mb-6 sm:mt-4 sm:w-[287px] sm:h-[184px] lg:w-[374px] lg:h-[216px] ">
-            <img src="assets/icons/message.svg" alt="" class="pb-6">
-            <p class="text-[#13131866] pb-4">Email:</p>
-            <h6 class="title-color font-extrabold text-lg">hockeys@support.com</h6>
-          </div>
-          <div
-            class="rounded-2xl bg-[#629cea1a] p-5 mx-auto lg:mt-6 lg:mb-6 sm:mt-4 sm:w-[287px] sm:h-[184px] lg:w-[374px] lg:h-[216px] ">
-            <img src="assets/icons/location.svg" alt="" class="pb-6">
-            <p class="text-[#13131866] pb-4">Location : </p>
-            <h6 class="title-color font-extrabold text-lg">152/1 Mohakhali Wireless Gate</h6>
-          </div>
+        <div class="border p-10 rounded-2xl">
+          <div class="space-y-5">
+            <div class="p-black bg-lime-50 py-10 px-7 rounded-lg">
+              <img class="mb-5" src="/assets/icons/call.svg" alt="">
+              Phone Number : <br>
+              <strong class="text-black">
+                (+62) 123-321-543
+              </strong>
+            </div>
+            <div class="p-black bg-yellow-50 py-10 px-7 rounded-lg">
+              <img class="mb-5" src="assets/icons/message.svg" alt="">
+              Email :
+              <br>
+              <strong class="text-black">
+                hockeys@support.com
+              </strong>
+            </div>
+            <div class="p-black bg-slate-100 py-10 px-7 rounded-lg">
+              <img class="mb-5" src="assets/icons/location.svg" alt="">
+              Location :
+              <br>
+              <strong class="text-black">
 
-
-
+                152/1 Mohakhali Wireless Gate
+              </strong>
+            </div>
+          </div>
         </div>
         <!--Form-->
         <div class="sm:inline-flex sm:mx-auto sm:m-5">
@@ -626,7 +631,7 @@
               <div>
                 <h3 class="title-color font-bold text-xl pb-4">Your Email</h3>
                 <input type="text" placeholder="Enter your Email"
-                  class="input input-bordered w-[335px] bg-[#13131805] max-w-xs" />
+                  class="input input-bordered w-[335px] bg-[#13131805] sm:w-full" />
               </div>
             </div>
             <div class="flex flex-col lg:flex-row justify-between gap-6 pt-6">
